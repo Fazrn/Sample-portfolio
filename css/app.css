@@ -1,10 +1,9 @@
-body {
-  background-color: #1b1b1b;
+:root {
+  --primary-font-family: "Roboto", sans-serif;
 }
 
-.background-first-page {
-  max-width: 1440px;
-  max-height: 900px;
+body {
+  background-color: #1b1b1b;
 }
 
 .header {
@@ -17,6 +16,7 @@ body {
 
 ul {
   list-style-type: none;
+  margin-top: -1.5em;
 }
 
 ul li {
@@ -25,4 +25,52 @@ ul li {
 
 .logo {
   padding-left: 5em;
+}
+
+.seccond-container-shelly-white {
+  color: white;
+
+  position: relative;
+}
+.seccond-container-heading-information {
+  text-align: center;
+  padding: 10em 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--primary-font-family);
+  color: white;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 72px;
+  letter-spacing: 0.1em;
+}
+
+.seccond-container-heading-information h2 {
+  font-size: 18px;
+  font-weight: 400;
+  max-width: 25em;
+  margin: 1em auto;
+}
+.seccond-container-heading-information p {
+  font-size: 24px;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+.seccond-container-heading-information a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  background-color: white;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #272142;
+  border-radius: 50px;
+  padding: 18px 40px;
+  margin-top: 1em;
+  line-height: 17px;
 }
