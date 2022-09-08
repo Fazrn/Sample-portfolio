@@ -1,0 +1,28 @@
+body {
+  background-color: #1b1b1b;
+}
+
+.background-first-page {
+  max-width: 1440px;
+  max-height: 900px;
+}
+
+.header {
+  color: white;
+}
+
+.first-container {
+  background-color: #212121;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  padding-right: 3em;
+}
+
+.logo {
+  padding-left: 5em;
+}
