@@ -54,6 +54,7 @@ h1 {
   font-size: 18px;
   font-weight: 400;
   max-width: 25em;
+  line-height: 30px;
   margin: 1em auto;
 }
 .seccond-container-heading-information p {
@@ -73,4 +74,13 @@ h1 {
   padding: 18px 40px;
   margin-top: 1em;
   line-height: 17px;
+}
+
+.photo-portfolio-gallery {
+  background-color: #2c2c2c;
+}
+
+.row-photo-gallery {
+  margin-left: 9em;
+  max-width: 1152px;
 }
