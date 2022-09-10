@@ -42,7 +42,8 @@ h1 {
   font-weight: 700;
   letter-spacing: 0.1em;
 }
-.seccond-container-heading-information a {
+.seccond-container-heading-information a,
+.about-content a {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   background-color: white;
@@ -59,7 +60,37 @@ h1 {
   max-width: 1152px;
 }
 
-@media (max-width: 700px) {
+.about-content p {
+  color: white;
+}
+
+.about-content h2 {
+  color: #f65282;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+}
+.about-content h1 {
+  font-size: 64px;
+}
+.about-content p {
+  font-family: var(--primary-font-family);
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+}
+i {
+  color: white;
+}
+.camera-details {
+  background-color: #2d2727;
+}
+.camera-details span {
+  color: white;
+  font-family: var(--primary-font-family);
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
   .seccond-container-heading-information {
     padding: 5em 0;
   }
@@ -85,10 +116,75 @@ h1 {
   .photo-portfolio-gallery {
     padding-top: 0 !important;
   }
+  .girl-face {
+    margin-top: 1em;
+  }
+
+  .about-content {
+    text-align: center;
+  }
+  .about-content h1 {
+    font-size: 40px;
+  }
+  .about-content a {
+    padding: 13px 26px;
+    font-size: 14px;
+  }
+  .camera,
+  .camera-details {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .about-content h2 {
+    margin-top: 2em !important;
+  }
+  .about-content h1 {
+    font-size: 26px;
+  }
+  .about-content p {
+    font-size: 14px;
+  }
+  .about-content a {
+    margin-top: 0 !important;
+    font-size: 12px;
+  }
+  .social-media-logo-wrapper {
+    margin-top: 2em !important;
+  }
+  .camera,
+  .camera-details {
+    display: none !important;
+  }
+}
+@media (min-width: 1024px) {
+  .about-content {
+    margin-top: 1.5em;
+  }
+  .about-content h1 {
+    font-size: 55px;
+  }
+  .about-content p {
+    font-size: 18px;
+  }
 }
 
 @media (min-width: 1400px) {
   .row-photo-gallery {
     margin-left: 4em;
+  }
+  .about-content {
+    margin-top: 2.5em;
+  }
+  .about-content h1 {
+    font-size: 64px;
+  }
+  .camera,
+  .camera-details {
+    display: block !important;
+  }
+  .about-content a {
+    font-size: 14px;
   }
 }
