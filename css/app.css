@@ -134,6 +134,10 @@ i {
   .camera-details {
     display: none !important;
   }
+  .gallery-header {
+    margin-top: 1em;
+    font-size: 40px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -157,6 +161,10 @@ i {
   .camera-details {
     display: none !important;
   }
+  .gallery-header {
+    margin-top: 1em;
+    font-size: 40px;
+  }
 }
 @media (min-width: 1024px) {
   .about-content {
@@ -167,6 +175,10 @@ i {
   }
   .about-content p {
     font-size: 18px;
+  }
+  .gallery-header {
+    margin-top: 0.75em;
+    font-size: 50px;
   }
 }
 
@@ -186,5 +198,8 @@ i {
   }
   .about-content a {
     font-size: 14px;
+  }
+  .gallery-header {
+    margin-top: 1em;
   }
 }
