@@ -89,6 +89,22 @@ i {
   font-family: var(--primary-font-family);
   font-weight: 700;
 }
+.contact-ways {
+  color: #f65282;
+  font-size: 14px;
+  opacity: 90%;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  line-height: 16px;
+  margin-top: 2.5em;
+}
+.seccond-container-heading-information span {
+  font-family: var(--primary-font-family);
+  font-weight: 400;
+  font-size: 18px;
+  padding-left: 0.5em;
+}
 
 @media (max-width: 768px) {
   .seccond-container-heading-information {
