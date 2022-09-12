@@ -105,6 +105,49 @@ i {
   font-size: 18px;
   padding-left: 0.5em;
 }
+.navbar {
+  color: white;
+}
+.navbar ul {
+  margin-top: 1em;
+}
+.navbar li {
+  list-style-type: none;
+  display: inline;
+  margin-left: 1em;
+}
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+.navbar a:hover {
+  color: #f65282;
+  transition: all 100ms ease-in-out;
+}
+
+.navbar a.active {
+  color: #f65282;
+}
+@media (max-width: 368px) {
+  .navbar span {
+    display: none !important;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+  }
+  .navbar ul {
+    font-size: 14px;
+    padding: 0;
+  }
+  .navbar li {
+    margin-left: 0.5em;
+  }
+
+  .seccond-container-heading-information h1 {
+    font-size: 28px;
+  }
+}
 
 @media (max-width: 768px) {
   .seccond-container-heading-information {
